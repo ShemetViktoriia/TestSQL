@@ -37,7 +37,6 @@ AS
 	SELECT * FROM Employees
 GO	
 
--- ¬вод по одному сотруднику
 -- 1 Employee
 EXEC sp_AddEmployee
 	 @f_name ='Ivan',
